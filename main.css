@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: bisque;
+    
+}
+
+header {
+    background-color: blue;
+    color: #fff;
+    padding: 16px 0;
+    
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.container h1 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+.form-campo {
+    margin-bottom: 16px;}
+
+.form-campo label {
+    display: block;
+    font-weight: bolder;
+    margin-top: 16px;
+    
+}
+
+.form-campo input {
+    width: 100%;   
+    padding: 8px;
+}
+
+form {
+    max-width: 360px;
+}
+
+button {
+    width: 50%;
+    background-color: rgb(3, 85, 85);
+    color: #fff;
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
